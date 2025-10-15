@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Check-List",
+  "version": "1.12.4",
+  "description": "Uma lista de tarefas simples para organizar seu dia.",
+  "author": "Luiz Henrique Romualdo da Silva Guedes",
+
+  "icons": {
+    "16": "icons/icon.png",
+    "32": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "32": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["src/content/content.js"]
+    }
+  ],
+
+  "permissions": ["storage"]
+}
