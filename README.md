@@ -19,7 +19,7 @@ Esta é uma extensão para o navegador Google Chrome que funciona como uma **che
 1. Clone ou baixe este repositório no seu computador.
    
    ```bash
-   https://github.com/henriqrsg/Extensao_Google.git
+   https://github.com/henriqrsg/Extensao_Google-main.git
    ```
 2. Acesse as extensões do google.
 
