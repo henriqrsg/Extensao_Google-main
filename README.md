@@ -63,7 +63,7 @@ Acesse a landing page da extensão:
 Baixe a versão empacotada (.zip):
 
    ```bash
-   https://github.com/henriqrsg/Extensao_Google/releases
+   https://github.com/henriqrsg/Extensao_Google-main/releases
    ```
 
 ---
